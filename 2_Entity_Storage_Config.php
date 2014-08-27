@@ -65,8 +65,8 @@ class CreateStorageConfigCommand extends ContainerAwareCommand
     protected function execute(InputInterface $input, OutputInterface $output)
     {
         $classname = $input->getOption('class');
-    	$output->writeln("- Create storage config for " . $classname);
-    	$this->createStorageConfig($classname);
-    	$output->writeln("- Cache it. Done.");
+        $output->writeln("- Create storage config for " . $classname);
+        $this->createStorageConfig($classname);
+        $output->writeln("- Cache it. Done.");
     }
 }
