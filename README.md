@@ -2,6 +2,7 @@ Codebeispiele
 ================
 
 1.) Kalkulation von Rechnungswerten 
+
 Projekt: Kunden- und Rechnungsverwaltungstool 
 Technologien: PHP 
  
